@@ -1,0 +1,15 @@
+{
+  "name": "wazabi-bot",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/user-attachments/assets/3d76b3e5-2799-4116-b3dc-8d47e2dd9ef5)",
+  "main": "index.js",
+  "bin": {
+    "wazabi-bot": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

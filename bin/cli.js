@@ -19,7 +19,7 @@ function copyRecursive(src, dest) {
 
 program
   .command('init')
-  .description('Crear estructura inicial del proyecto')
+  .description('Create new project structure.')
   .action(() => {
     const templateDir = path.join(__dirname, '../templates');
     const targetDir = process.cwd();
@@ -30,7 +30,7 @@ program
       copyRecursive(src, dest);
     });
 
-    console.log('Proyecto inicial creado.');
+    console.log('Bot project created.');
   });
 
 program.parse(process.argv);

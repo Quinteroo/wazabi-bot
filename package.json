@@ -1,15 +1,46 @@
 {
   "name": "wazabi-bot",
   "version": "1.0.0",
-  "description": "![image](https://github.com/user-attachments/assets/3d76b3e5-2799-4116-b3dc-8d47e2dd9ef5)",
-  "main": "index.js",
+  "description": "A Node.js and Gemini AI-powered WhatsApp bot framework designed for customer support automation.",
   "bin": {
-    "wazabi-bot": "bin/cli.js"
+    "wazabi-bot": "./bin/cli.js"
   },
+  "main": "bin/cli.js",
+  "keywords": [
+    "whatsapp bot",
+    "whatsapp",
+    "bot",
+    "ai",
+    "gemini",
+    "gemini-ai",
+    "nodejs",
+    "customer-support",
+    "google-ai"
+  ],
+  "author": {
+    "name": "Miguel Quintero - qugodev",
+    "url": "https://www.linkedin.com/in/quinteroo/"
+  },
+  "license": "Apache-2.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node bin/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinteroo/wazabi-bot"
+  },
+  "homepage": "https://github.com/Quinteroo/wazabi-bot#readme",
+  "bugs": {
+    "url": "https://github.com/Quinteroo/wazabi-bot/issues"
+  },
+  "files": [
+    "bin",
+    "templates",
+    "README.md",
+    "package.json"
+  ]
 }

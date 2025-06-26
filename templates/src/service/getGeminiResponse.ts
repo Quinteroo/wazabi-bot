@@ -32,8 +32,9 @@ export async function getGeminiResponse(messageBody:string) {
     }
 
     const data = await respuesta.json();
-    return data?.candidates?.[0]?.content?.parts?.[0]?.text || "No pude generar una respuesta."
+    return data?.candidates?.[0]?.content?.parts?.[0]?.text || "I couldn't generate a response."
+
   } catch (error) {
-    console.log('❌ Error al llamar a la API:', error);
+    console.log('❌ Error calling the API:', error);
   }
 }

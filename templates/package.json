@@ -1,5 +1,5 @@
 {
-  "name": "11-bot-hostess-testing-app",
+  "name": "wazabi-bot",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/main.js",
@@ -7,10 +7,6 @@
     "build": "tsc",
     "start": "node ./dist/main.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^24.0.3",
     "@types/qrcode-terminal": "^0.12.2",

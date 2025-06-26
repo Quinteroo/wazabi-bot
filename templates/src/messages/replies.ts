@@ -8,7 +8,7 @@ type Reply ={
 
 
 export const replyCustomer:Reply = {
-    greeting : 'Hola! \nEspero se encuentre bien 😊 \n¿en que te puedo ayudar?',
-    bye:'Hasta luego 😀 estamos en contacto para lo que necesite!'
+    greeting : 'Hello! \nHope everything is ok 😊 \nHow can I help You?',
+    bye:'Keep in touch for any doubt 😀\n Bye!'
 
 }

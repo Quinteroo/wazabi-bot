@@ -7,6 +7,6 @@ type Messages ={
 
 
 export const messageCustomer:Messages = {
-    greeting : ["hola", "hol a", "buenas"],
-    bye:["adiós", "adios", "adio", "hasta mañana", "hasta luego"]
+    greeting : ["hello", "good afternoon", "good morning", "morning", "hi"],
+    bye:["bye", "see you", "have a nice day", "all the best"]
 }

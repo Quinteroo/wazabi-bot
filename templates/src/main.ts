@@ -8,23 +8,23 @@ import { getGeminiResponse } from './service/getGeminiResponse.js';
 
 
 
-const client = new Client({
+const bot = new Client({
     authStrategy: new LocalAuth()
 });
 
 const userStates = new Map<string, { step: string, data: any }>();
 
 
-client.once('qr', qr => {
+bot.once('qr', qr => {
     qrcode.generate(qr, {small: true});
 });
 
 
-client.once('ready', () => {
+bot.once('ready', () => {
     console.log('🤖 Bot is ready!');
 });
 
-client.on("message",async (message) => {
+bot.on("message",async (message) => {
   const userId = message.from;
   const text = message.body.trim().toLowerCase()
   const state = userStates.get(userId);
@@ -54,7 +54,7 @@ client.on("message",async (message) => {
   //BYE MESSAGE
     if(checkMessage(text,messageCustomer.bye) && state?.data.bye === false){
     state.data.bye = true;
-    userStates.set(userId,state);
+    userStates.delete(userId);
 
     setTimeout(()=>{
     message.reply(replyCustomer.bye)
@@ -69,9 +69,9 @@ client.on("message",async (message) => {
     },3000)
 
   } catch (error) {
-    console.log("❌ Error al generar respuesta", error)
+    console.log("❌ Error generating the response", error)
   }
 
 });
 
-client.initialize();
+bot.initialize();

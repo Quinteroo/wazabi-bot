@@ -29,10 +29,10 @@ The source code is developed in TypeScript. However, you can modify it as you wi
 
   
 ## SET UP
-Setting up a new project is quite simple with the invoice-extractor CLI. With npm installed, you can create a new wazabi-bot project with the following commands in your OS terminal:
+Setting up a new project is quite simple with the wazabi-bot CLI. With npm installed, you can create a new wazabi-bot project with the following commands in your OS terminal:
 
 >```bash
->npx invoice-extractor init
+>npx wazabi-bot init
 >
 
 

@@ -37,6 +37,19 @@ Setting up a new project is quite simple with the wazabi-bot CLI. With npm insta
 
 
 ## GETTING STARTED
+1. Use `npx wazabi-bot init` to initialize the project 
+2. Install dependencies with `npm install`  
+3. Modify content docs in the `/messages` directory  
+4. Create a `.env` file in the root of the project  
+5. Get your Gemini AI API key from [Google AI Studio](https://aistudio.google.com/app/apikey) and add it to the `.env` file as:
+GEMINI_API_KEY=your_api_key_here
+6. Build the project using `npm run build`
+7. Start the bot `npm start`
+8. Scan the QR code with your WhatsApp account
+9. Your bot is ready! 🎉
+
+## VIDEO-DEMO
+Coming soon
 
 ## DISCLAIMER
 We build our bot over whatsapp-web.js, which is an unofficial, open-source library that isn't made by WhatsApp or affiliated with it in any way. 

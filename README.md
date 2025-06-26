@@ -6,8 +6,7 @@
 ## INTRODUCTION
 A Node.js and Gemini AI-powered WhatsApp bot library designed for customer support automation.
 
-This library is designed to offer developers, entrepenaurs and companies the freedom to create WhatsApp clients, chatbots, applications, and more for their business.
-
+This library empowers developers, entrepreneurs, and companies to create WhatsApp clients, chatbots, applications, and more for their business needs.
 
 ## LANGUAGE
 The source code is developed in TypeScript. However, you can modify it as you wish to work with the language you're most comfortable with.
@@ -30,7 +29,7 @@ The source code is developed in TypeScript. However, you can modify it as you wi
 
   
 ## SET UP
-Setting up a new project is quite simple with the invoice-extractor CLI. With npm installed, you can create a new invoice-extractor project with the following commands in your OS terminal:
+Setting up a new project is quite simple with the invoice-extractor CLI. With npm installed, you can create a new wazabi-bot project with the following commands in your OS terminal:
 
 >```bash
 >npx invoice-extractor init
@@ -45,7 +44,9 @@ This project is not affiliated, associated, authorized, endorsed by, or in any w
 
 
 ## LICENSE
-
+This project is licensed under the Apache License 2.0.
+You can find the full license text here:
+[LICENSE](https://github.com/Quinteroo/wazabi-bot/blob/main/LICENSE)
 
 ### LINKS
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/quinteroo/)

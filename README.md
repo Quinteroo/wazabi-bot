@@ -4,9 +4,9 @@
 
 
 ## INTRODUCTION
-A Node.js and Gemini AI-powered WhatsApp bot library designed for customer support automation.
+A Node.js and Gemini AI-powered scaffolding library for WhatsApp bots, designed to automate customer support.
 
-This library empowers developers, entrepreneurs, and companies to create WhatsApp clients, chatbots, applications, and more for their business needs.
+This library empowers developers, entrepreneurs, and businesses to easily create WhatsApp clients, chatbots, applications, and more to meet their business needs.
 
 ## LANGUAGE
 The source code is developed in TypeScript. However, you can modify it as you wish to work with the language you're most comfortable with.

@@ -1,6 +1,6 @@
 {
   "name": "wazabi-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Node.js and Gemini AI-powered WhatsApp bot framework designed for customer support automation.",
   "bin": {
     "wazabi-bot": "./bin/cli.js"

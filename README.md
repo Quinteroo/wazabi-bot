@@ -49,7 +49,8 @@ GEMINI_API_KEY=your_api_key_here
 9. Your bot is ready! 🎉
 
 ## VIDEO-DEMO
-Coming soon
+You can find the video-demo here:
+[VIDEO](https://www.linkedin.com/feed/update/urn:li:activity:7345891384907706368/)
 
 ## DISCLAIMER
 We build our bot over whatsapp-web.js, which is an unofficial, open-source library that isn't made by WhatsApp or affiliated with it in any way. 
